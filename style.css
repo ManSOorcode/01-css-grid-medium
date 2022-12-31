@@ -1,11 +1,14 @@
-/* *{
-    margin: 0;
-    padding: 0;
-} */
+
 
 :root{
     --main-radius:5px;
     --main-padding:5px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
 }
 
 .container{
@@ -29,6 +32,8 @@
 
      text-transform: uppercase;
      text-align: center;
+    
+    padding:0.5rem;
     
 
 }
